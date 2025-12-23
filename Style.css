@@ -29,7 +29,7 @@ header {
   z-index: 1000;
 }
 header .logo img {
-  height: 90px;
+  height: 60px;
 }
 nav a {
   margin-left: 2rem;
@@ -425,3 +425,4 @@ footer a {
 .btn:hover .whatsapp-icon {
   transform: scale(1.2);
 }
+
