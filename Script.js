@@ -49,8 +49,9 @@ checkCardsInView();
 window.addEventListener('scroll', checkCardsInView);
 
 function openWhatsApp(device) {
-  const phoneNumber = "233XXXXXXXXX"; // replace with your WhatsApp number, country code included
+  const phoneNumber = "233547508076"; // replace with your WhatsApp number, country code included
   const message = `Hello! I want to buy or swap this device: ${device}`;
   const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
   window.open(url, '_blank');
 }
+
